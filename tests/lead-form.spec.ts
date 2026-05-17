@@ -93,7 +93,7 @@ test('CT-05 | telefone incompleto bloqueia envio', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Lead cadastrado com sucesso!' })).not.toBeVisible();
 });
 
-test.fail('CT-07 | [BUG] data de hoje bloqueada incorretamente', async ({ page }) => {
+test.skip('CT-07 | [BUG] data de hoje bloqueada incorretamente(timezone-dependent, só reproduz em UTC-3)', async ({ page }) => {
   await page.goto('/');
 
   await fillRequiredFields(page);
