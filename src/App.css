@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0F172A; }
+input, select, textarea, button { font-family: inherit; }
+
+.success-screen {
+  background: #0F172A;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success-card {
+  background: #1E293B;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 48px;
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+  color: #F1F5F9;
+}
+.success-card h2 { margin-bottom: 16px; }
+.success-card p { color: #94A3B8; margin-bottom: 8px; }
+.success-icon {
+  font-size: 48px;
+  color: #0D9488;
+  margin-bottom: 16px;
+}
+.success-card button {
+  margin-top: 20px;
+  background: #0D9488;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
